@@ -2,7 +2,7 @@
 
 ### Turn your Cover Letter into a Power Letter
 
-Don't let a weak cover letter ruin your chances at that coveted job of yours. Now, with Power Letter app, you can boost your cover letter to a POWER LETTER (TM)! Get rid of that normie vocabulary, and dazzle your hirer with your dank POWER LETTER (TM)!
+Don't let a weak cover letter ruin your chances at that coveted job of yours. Now, with Power Letter app, you can boost your cover letter to a **POWER LETTER<sup>TM</sup>**! Get rid of that normie vocabulary, and dazzle your hirer with your dank **POWER LETTER<sup>TM</sup>**!
 
 ## How
  ```
@@ -23,7 +23,7 @@ My professional experience and Smith Business School education prepare me to be 
 ![alt text](http://68.media.tumblr.com/tumblr_m1av4pFFBo1r6hxuw.gif
  "Logo Title Text 1")
 
-### POWER LETTER (TM)!
+### **POWER LETTER<sup>TM</sup>**!
 
 I am a ordinal-twelvemonth Smith Business School scholarly person aspiring in quizzing for a brimful-clock time actuary stead with The ABC Consulting Group.
 

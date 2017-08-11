@@ -5,7 +5,7 @@ import re
 def get_hot_words(blob):
     if len(blob.split(' ')) > 500:
         return set([]), set([]), set([]), set([])
-    
+
     resp = requests.post("http://text-processing.com/api/tag/", data = {'text':blob})
 
     jj = re.compile('([A-Za-z]+)/JJ')
