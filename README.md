@@ -20,7 +20,7 @@ My professional experience and Smith Business School education prepare me to be 
 
 #### Hirer reaction:
 
-![alt text](https://media.tenor.com/images/90f2f3843d1499faf7b000b6cd319fa9/tenor.gif
+![alt text](http://68.media.tumblr.com/tumblr_m1av4pFFBo1r6hxuw.gif
  "Logo Title Text 1")
 
 ### POWER LETTER (TM)!
