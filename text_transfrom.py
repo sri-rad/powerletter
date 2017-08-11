@@ -3,9 +3,9 @@ import json
 import re
 
 def get_hot_words(blob):
-
     if len(blob.split(' ')) > 500:
         return set([]), set([]), set([]), set([])
+    
     resp = requests.post("http://text-processing.com/api/tag/", data = {'text':blob})
 
     jj = re.compile('([A-Za-z]+)/JJ')
@@ -27,6 +27,7 @@ def get_hot_words(blob):
 
 def get_apt_rep(word, type):
     ffs = re.compile('f:([-+]?\d*\.\d+|\d+)')
+
     resp = requests.get("https://api.datamuse.com/words?ml={}&md=f".format(word))
     rep_words = json.loads(resp.text)
 
@@ -47,9 +48,8 @@ def get_apt_rep(word, type):
             best_rep = rep_word
             best_feq = feq
 
+    if word[0].isupper(): return best_rep['word'].capitalize()
     return best_rep['word']
-
-
 
 def rep_hot_words(blob):
     adjs, advs, nouns, verbs = get_hot_words(blob)
