@@ -30,14 +30,7 @@ def get_apt_rep(word, type):
     resp = requests.get("https://api.datamuse.com/words?ml={}&md=f".format(word))
     rep_words = json.loads(resp.text)
 
-    if type == "v":
-        rep_words = [rep_word for rep_word in rep_words if "v" in rep_word["tags"]]
-
-    if type == "adj":
-        rep_words = [rep_word for rep_word in rep_words if "adj" in rep_word["tags"]]
-
-    if type == "n":
-        rep_words = [rep_word for rep_word in rep_words if "n" in rep_word["tags"]]
+    rep_words = [rep_word for rep_word in rep_words if type in rep_word["tags"]]
 
     if len(rep_words) > 10:
         rep_words = rep_words[:10]
